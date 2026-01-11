@@ -7,31 +7,23 @@ This repository features a comprehensive and practical implementation of Convolu
 This repository contains 5 different CNN projects:
 
 #### 1. Cats vs Dogs
-- **Notebook**: `Cats vs Dogs/Cats vs Dogs.ipynb`
+
+- **Notebook**: `Cats vs Dogs/Cats_vs_Dogs.ipynb`
 - **Content**: Binary image classification between cats and dogs
 - **Objective**: Build a CNN to distinguish between cats and dogs
 - **Status**: Ready for training
 
 #### 2. Concrete Cracks
-- **Notebook**: `Concrete Cracks/Concrete Cracks.ipynb`
+
+
+- **Notebook**: `Concrete Cracks/Concrete_Crack_Detection.ipynb`
 - **Content**: Crack detection in concrete structures
 - **Objective**: Classify images to detect structural damage
 - **Status**: Ready for training
 
-#### 3. Garbage Type
-- **Notebook**: `Garbage Type/Garbage Type.ipynb`
-- **Content**: Waste classification for recycling
-- **Objective**: Classify different types of garbage for sorting
-- **Status**: Ready for training
+#### 3. Vehicle Type
 
-#### 4. Musical Instruments
-- **Notebook**: `Musical Instruments/Musical Instruments.ipynb`
-- **Content**: Musical instrument recognition from images
-- **Objective**: Classify different musical instruments
-- **Status**: Ready for training
-
-#### 5. Vehicle Type
-- **Notebook**: `Vehicle Type/Vehicle Type.ipynb`
+- **Notebook**: `Vehicle Type/Vehicle_Type.ipynb`
 - **Content**: Vehicle classification from images
 - **Objective**: Classify different types of vehicles
 - **Status**: Ready for training
@@ -40,9 +32,11 @@ This repository contains 5 different CNN projects:
 
 1. Clone this repository
 2. Install required Python packages for CNN:
-   ```bash
-   pip install tensorflow keras pandas numpy matplotlib seaborn jupyter opencv-python pillow
-   ```
+    
+    ```shell
+    pip install tensorflow keras pandas numpy matplotlib seaborn jupyter opencv-python pillow
+    ```
+    
 3. Choose a project folder and open the corresponding Jupyter notebook
 4. Follow the training process and experiment with different architectures
 
@@ -69,15 +63,11 @@ This repository contains 5 different CNN projects:
 Convolutional-Neural-Networks/
 ├── README.md
 ├── Cats vs Dogs/
-│   └── Cats vs Dogs.ipynb
+│   └── Cats_vs_Dogs.ipynb
 ├── Concrete Cracks/
-│   └── Concrete Cracks.ipynb
-├── Garbage Type/
-│   └── Garbage Type.ipynb
-├── Musical Instruments/
-│   └── Musical Instruments.ipynb
+│   └── Concrete_Crack_Detection.ipynb
 └── Vehicle Type/
-    └── Vehicle Type.ipynb
+    └── Vehicle_Type.ipynb
 ```
 
 ## Tips for Success
